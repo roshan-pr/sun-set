@@ -1,0 +1,57 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: hsl(51, 100%, 95%);
+}
+
+.frame {
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.axis {
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(51, 100%, 50%);
+    box-shadow:
+    0px -3em 5px hsl(51, 100%, 60%),
+    0px -6em 20px hsl(51, 100%, 70%),
+    0px -9em 20px hsl(51, 100%, 80%),
+    0px -12em 20px hsl(51, 100%, 90%),
+    0px 3em 20px hsl(210, 100%, 66%),
+    0px 6em 20px hsl(210, 100%, 76%),
+    0px 9em 20px hsl(210, 100%, 86%),
+    0px 14em 20px sandybrown,
+    0px 16em 20px sandybrown;
+}
+
+.sun {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(46, 100%, 50%);
+    box-shadow:
+    -10px 0px 60px hsl(0, 100%, 50%),
+    10px 0px 60px hsl(0, 100%, 50%),
+    0px -10px 60px hsl(0, 100%, 50%),
+    0px 10px 60px hsl(0, 100%, 50%),
+    0px 4em 20px hsl(51, 100%, 75%),
+    0px 4em 20px hsl(0, 100%, 50%);
+}
+
+.lift-up {
+    position: relative;
+    bottom: .8em;
+}
+
+.axis img {
+    width: 50px;
+}
