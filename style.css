@@ -1,7 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    width: 960px;
-    margin: 0 auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: hsl(51, 100%, 95%);
 }
 
@@ -52,6 +54,10 @@ body {
     bottom: .8em;
 }
 
-.axis img {
+.axis > figure {
     width: 50px;
+}
+
+img {
+    width: 100%;
 }
